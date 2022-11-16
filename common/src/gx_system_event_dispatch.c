@@ -79,7 +79,7 @@ UINT  _gx_system_event_dispatch(GX_EVENT *in_event)
 {
 
 GX_WIDGET      *target = GX_NULL;
-GX_WINDOW_ROOT *root_window;
+GX_WINDOW_ROOT *root_window = GX_NULL;
 GX_EVENT        out_event;
 GX_POINT        pen_pos;
 UINT            return_code = 0;
